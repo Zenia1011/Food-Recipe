@@ -1,0 +1,23 @@
+h1 {
+  font-size: 2.5rem;
+  color: #343a40; /* Dark gray */
+  text-align: center;
+  margin-top: 20px;
+}
+
+p {
+  font-size: 1.2rem;
+  color: #6c757d; /* Medium gray */
+  text-align: center;
+  margin: 10px 0;
+}
+
+a {
+  color: #007bff; /* Bootstrap primary blue */
+  text-decoration: none;
+}
+
+a:hover {
+  color: #0056b3; /* Darker blue */
+  text-decoration: underline;
+}

@@ -1,0 +1,74 @@
+
+  body {
+    background-color: rgb(138, 132, 138);
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center;
+    align-items: center; */
+    /* height: vh; */
+    margin: 0; /* Reset default margin */
+    padding: 0; /* Reset default padding */
+    font-size: 20px;
+  }
+
+  p{
+    padding-top: 10px;
+    text-align: center;
+  }
+
+  h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  form {
+    margin-top: 10px;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  .form-row {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
+  button.btn{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: white;
+    border-radius: 30px;
+    border-style: double;
+    background-color: black;
+  }
+
+  button.btn:hover{
+    
+    cursor: pointer;
+    border-style: double;
+    color: black;
+    background-color: white;
+  }
+
+  label {
+    margin-right: 10px;
+    min-width: 100px; /* Adjust the width as needed */
+  }
+
+  input {
+    width: 250px; /* Set a fixed width for input fields */
+  }
+
+  button.btn a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  button.btn a:hover {
+    color: black;
+  }

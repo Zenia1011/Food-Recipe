@@ -1,0 +1,23 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  /* display: flex; */
+  /* justify-content: center; */
+  align-items: center;
+  text-align: center;
+}
+
+.container {
+  max-width: 600px;
+  width: 100%;
+  padding: 20px;
+}
+
+.container img {
+  width: 100%;
+  height: auto;
+}
+
+nav {
+  width: 100%;
+}
